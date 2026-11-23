@@ -32,7 +32,15 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Tiksa memerlukan akses galeri untuk memilih foto rekomendasi.",
+          "cameraPermission": "Tiksa memerlukan akses kamera untuk memotret makanan atau minuman."
+        }
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true,
